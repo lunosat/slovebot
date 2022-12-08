@@ -1,0 +1,7 @@
+import imdb from "./src/imdb.js";
+
+const test = async () => {
+    let data = await imdb('Velozes e furiosos')
+    console.log(data.d[0])
+}
+test()
